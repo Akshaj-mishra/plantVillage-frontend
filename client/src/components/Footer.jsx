@@ -6,7 +6,7 @@ import { AppContext } from "../context/Appcontext";
 export const Footer = () => {
          const { setshowlogin } = useContext(AppContext);
   return (
-    <div className="relative bg-gradient-to-b from-green-50 to-white py-20 px-4 overflow-hidden">
+    <div className="relative bg-gradient-to-b from-green-50 to-white py-20 px-4 overflow-hidden rounded-t-3xl">
       
       {/* Background decorative elements */}
       <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-white to-transparent"></div>
